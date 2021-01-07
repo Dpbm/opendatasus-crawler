@@ -19,8 +19,9 @@ async function download(url, index) {
 				fileType,
 				`file${index}.${fileType}`
 			);
-			const writer = fs.createWriteStream(pathFiles);
 			try {
+				const writer = fs.createWriteStream(pathFiles);
+
 				const response = await axios({
 					method: 'GET',
 					url: url,
