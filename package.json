@@ -1,15 +1,14 @@
 {
-	"name": "OpenDataSusCrawler",
-	"version": "1.0.0",
-	"main": "src/index.js",
-	"license": "MIT",
-	"scripts": {
-		"start": "node ."
-	},
-	"dependencies": {
-		"axios": "^0.21.0",
-		"ora": "^5.1.0",
-		"puppeteer-core": "^5.5.0",
-		"readline-sync": "^1.4.10"
-	}
+    "name": "OpenDataSusCrawler",
+    "version": "1.0.0",
+    "main": "src/main.js",
+    "license": "MIT",
+    "scripts": {
+        "start": "node ."
+    },
+    "dependencies": {
+        "axios": "^0.21.0",
+        "ora": "^5.1.0",
+        "puppeteer-core": "^5.5.0"
+    }
 }
